@@ -5,37 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Education</title>
+    <style>
+      table,th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: cyan;
+  
+  
+  
+      }
+      .tablehead, .tabledata{
+        
+        padding: 10px;
+     
+      }
+      #tt{
+        margin-right: 80px;
+      }
+    </style>
   </head>
   <body>
-    <table cellspacing="1" bgcolor="skyblue">
-      <thead bgcolor="#ffffff">
-        <th>Qualification</th>
-        <th>School/College</th>
-        <th>Board/University</th>
-        <th>Year</th>
-        <th>Percentage</th>
+    <h3>Education Details</h3>
+    <table id="tt">
+      <thead>
+        <th class="tablehead">Qualification</th>
+        <th class="tablehead">School/College</th>
+        <th class="tablehead">Board/University</th>
+        <th class="tablehead">Year</th>
+        <th class="tablehead">Percentage</th>
       </thead>
       <tbody>
-        <tr bgcolor="#ffffff">
-          <td>BE</td>
-          <td>Karmayogi Engineering College, Shelve,Pandharpur.</td>
-          <td>Solapur</td>
-          <td>2018</td>
-          <td>62%</td>
+        <tr >
+          <td class="tabledata">BE</td>
+          <td class="tabledata">Karmayogi Engineering College, Shelve,Pandharpur.</td>
+          <td class="tabledata">Solapur</td>
+          <td class="tabledata">2018</td>
+          <td class="tabledata">62%</td>
         </tr>
-        <tr bgcolor="#ffffff">
-          <td>HSC</td>
-          <td>KMV, Shirur(Kasar),Beed</td>
-          <td>Pune</td>
-          <td>2012</td>
-          <td>55%</td>
+        <tr >
+          <td class="tabledata">HSC</td>
+          <td class="tabledata">KMV, Shirur(Kasar),Beed</td>
+          <td class="tabledata">Pune</td>
+          <td class="tabledata">2012</td>
+          <td class="tabledata">55%</td>
         </tr>
-        <tr bgcolor="#ffffff">
-          <td>SSC</td>
-          <td>LHL, Loni</td>
-          <td>Pune</td>
-          <td>2010</td>
-          <td>68%</td>
+        <tr>
+          <td class="tabledata">SSC</td>
+          <td class="tabledata">LHL, Loni</td>
+          <td class="tabledata">Pune</td>
+          <td class="tabledata">2010</td>
+          <td class="tabledata">68%</td>
         </tr>
       </tbody>
     </table>
