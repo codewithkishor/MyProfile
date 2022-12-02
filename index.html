@@ -18,43 +18,41 @@
         }
         header {
             background-color: pink;
-            color: blueviolet;
-           
+            padding: 0px;
             text-shadow: 10px 4px 8px rgb(171, 106, 106);
-            text-size-adjust: 800px;
+           
         }
         .navigation {
             padding: 30px 30px 30px 0px;
 
         }
 
-        #icons {
-            margin: 0px 0px 0px 20px;
-            padding: 10px;
-
-        }
-
         nav {
             padding: 20px 10px 20px 0px;
-            text-align: center;
-            text-shadow: 10px 4px 8px rgb(171, 106, 106);
+         
+            text-shadow: 10px 4px 8px rgb(146, 28, 87);
         }
-        i {
-
-            outline-color: blueviolet;
-            text-shadow: 1px 4px 8px rgb(171, 106, 106);
-            text-justify: auto;
-        }
+        
+    
         #bgimage{
             background-color: rgb(168, 134, 175);
+            
 
+        }
+        #size{
+            padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  margin: 5px;
+  
         }
         .fa {
   padding: 10px;
   font-size: 20px;
   width: 20px;
   text-align: center;
-  
+  margin: 10px;
   border-radius: 50%;
 }
 
@@ -77,20 +75,32 @@
   background: #55ACEE;
   color: white;
 }
+.fa-user {
+  background: #55ACEE;
+  color: white;
+}
+.fa-mobile {
+  background: #55ACEE;
+  color: white;
+}
+.fa-envelope {
+    background: #55ACEE;
+  color: white;
+}
     </style>
 </head>
 
 <body id="bgimage">
     <div>
         <header>
-            <i class="fa fa-user" aria-hidden="true"></i> Kishor Bargaje
-            <i class="fa fa-mobile" aria-hidden="true" id="icons"></i> 8308215407
-            <i class="fa fa-envelope" aria-hidden="true" id="icons"></i> bkishor306@gmail.com
+            <i id="size" class="fa fa-user" aria-hidden="true" ></i> Kishor Bargaje
+            <i id="size" class="fa fa-mobile" aria-hidden="true" ></i> 8308215407
+            <i id="size" class="fa fa-envelope" aria-hidden="true"></i> bkishor306@gmail.com
         </header>
     </div>
     <div>
         <nav>
-            <a href="home.html" target="myFrame" class="navigation" id="icons">HOME</a>
+            <a href="home.html" target="myFrame" class="navigation">HOME</a>
             <a href="techStack.html" target="myFrame" class="navigation">TECHNOLOGYSTRACK</a>
             <a href="education.html" target="myFrame" class="navigation">EDUCATION</a>
             <a href="project.html" target="myFrame" class="navigation">PROJECT</a>
@@ -112,6 +122,7 @@
                 id="icons"></i></a>
         <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"
                 id="icons"></i></a>
+               <span><marquee behavior="blink" direction="right to left">CodeMind Technology</marquee></span> 
     </footer>
 
 </body>
