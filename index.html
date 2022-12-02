@@ -7,49 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+       
+        }
         header {
             background-color: pink;
             color: blueviolet;
+            
+            padding-left: 10px;
+            text-shadow: 10px 4px 8px rgb(171, 106, 106);
+            text-size-adjust: 800px;
         }
-
         .navigation {
             padding: 30px 30px 30px 0px;
-            
+
         }
 
         #icons {
             margin: 0px 0px 0px 20px;
+            padding: 10px;
 
         }
-        nav{
-            padding: 10px 0px 10px 0px;
+
+        nav {
+            padding: 20px 10px 20px 0px;
+            text-align: center;
+            text-shadow: 10px 4px 8px rgb(171, 106, 106);
+        }
+        i {
+
+            outline-color: blueviolet;
+            text-shadow: 1px 4px 8px rgb(171, 106, 106);
+            text-justify: auto;
+        }
+        #bgimage{
+            background-color: rgb(168, 134, 175);
         }
     </style>
 </head>
 
-<body>
+<body id="bgimage">
     <div>
         <header>
-            <i class="fa fa-user" aria-hidden="true"></i> Kishor bargaje
+            <i class="fa fa-user" aria-hidden="true"></i> Kishor Bargaje
             <i class="fa fa-mobile" aria-hidden="true" id="icons"></i> 8308215407
             <i class="fa fa-envelope" aria-hidden="true" id="icons"></i> bkishor306@gmail.com
-
         </header>
     </div>
-    
-    <nav>
-        <a href="home.html" target="myFrame" class="navigation" id="icons">HOME</a>
-        <a href="techStack.html" target="myFrame" class="navigation">TECHNOLOGYSTRACK</a>
-        <a href="education.html" target="myFrame" class="navigation">EDUCATION</a>
-        <a href="project.html" target="myFrame" class="navigation">PROJECT</a>
-        <a href="hobbies.html" target="myFrame" class="navigation">HOBBIES</a>
-        <a href="personal.html" target="myFrame" class="navigation">PERSONAL</a>
-        <a href="contactUs.html" target="myFrame" class="navigation">CONTACT US</a>
-    </nav>
-    
-    <iframe width="900" height="500" name="myFrame" src="home.html"></iframe> <br> <br>
+    <div>
+        <nav>
+            <a href="home.html" target="myFrame" class="navigation" id="icons">HOME</a>
+            <a href="techStack.html" target="myFrame" class="navigation">TECHNOLOGYSTRACK</a>
+            <a href="education.html" target="myFrame" class="navigation">EDUCATION</a>
+            <a href="project.html" target="myFrame" class="navigation">PROJECT</a>
+            <a href="hobbies.html" target="myFrame" class="navigation">HOBBIES</a>
+            <a href="personal.html" target="myFrame" class="navigation">PERSONAL</a>
+            <a href="contactUs.html" target="myFrame" class="navigation">CONTACT US</a>
+        </nav>
+    </div>
+
+    <iframe width="900" height="500" name="myFrame" src="home.html" style="background-image: bgimage;"></iframe> <br> <br>
 
     <footer>
         <strong>Follow me</strong>
