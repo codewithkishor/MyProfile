@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <title>Student Regisration Form</title>
+  <style>
+    label {
+      color: rgb(255, 0, 0);
+    }
+
+    button:hover {
+      background-color: chocolate;
+      background: 1px solid rgb(255, 0, 0);
+    }
+
+
+    input [type="text"] {
+      color: rgb(29, 38, 46);
+      border: 1px solid rgb(29, 38, 46);
+      border-radius: 20px;
+      height: 40px;
+      width: 200px;
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h2>Student Regisration form</h2>
+    <table>
+      <tr>
+        <td><label for="Firstname">First Name</label></td>
+        <td>
+          <input type="text" placeholder="Capital letter please" required autofocus maxlength="20" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="LastName">Last Name</label></td>
+        <td>
+          <input type="text" placeholder="Capital letter please" required />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="MobileNumber"> Mobile Number</label></td>
+        <td>
+          <input type="number" placeholder="Max 10 Digit Only" required />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="EmsilId">Email Id</label></td>
+        <td><input type="email" placeholder="abc@gmail.com" /></td>
+      </tr>
+      <tr>
+        <td><label for="Password"> Password</label></td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td><label for="Dateofbirth">Date of Birth</label></td>
+        <td><input type="date" /></td>
+      </tr>
+      <tr>
+        <td><label for="availabelinweek"> Availabel in Week</label></td>
+        <td><input type="week" /></td>
+      </tr>
+      <tr>
+        <td><label for="availabelinweek"> Preferred time</label></td>
+        <td><input type="time" /></td>
+      </tr>
+      <tr>
+        <td><label> Profile Photo</label></td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr>
+        <td><label> Upload Graduation Marksheets</label></td>
+        <td><input type="file" multiple /></td>
+      </tr>
+      <tr>
+        <td><label>Graduation</label></td>
+        <td>
+          <select>
+            <option>BE</option>
+            <option>ME</option>
+            <option>BSE</option>
+            <option>BCA</option>
+            <option>BA</option>
+            <option>B.Tech</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td> <label> Select Gender</label></td>
+        <td> <input type="radio" name="gender"> <label>Male</label>
+          <input type="radio" name="gender"> <label>Female</label>
+          <input type="radio" name="gender"> <label>Others</label>
+        </td>
+      </tr>
+      <tr>
+        <td> <label for="trainnings">Please Select Trainnings</label></td>
+        <td>
+          <input type="checkbox"> <label>Angular</label>
+          <input type="checkbox"> <label>React</label>
+          <input type="checkbox"> <label>Data Science</label>
+          <input type="checkbox"> <label>Java</label>
+          <input type="checkbox"> <label>Big Data</label>
+          <input type="checkbox"> <label>Manual + Automation Testing</label>
+        </td>
+
+      </tr>
+      <tr>
+        <td><label for="Age">Age</label></td>
+        <td><input type="number" placeholder="Only Numbers" required /></td>
+      </tr>
+      <tr>
+        <td><label for="State">State</label></td>
+        <td><input type="text" value="MH" readonly /></td>
+      </tr>
+      <tr>
+        <td><label for="Contry"> Contry</label></td>
+        <td><input type="text" value="India" disabled /></td>
+      </tr>
+      <tr>
+        <td> <label for="Present Address">Present Address</label></td>
+        <td> <textarea name="" id="" cols="30" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td><button type="button">Reset</button></td>
+        <td><input type="Submit" /></td>
+        <td><input type="Reset" /></td>
+
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
